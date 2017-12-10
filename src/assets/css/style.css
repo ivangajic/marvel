@@ -1,0 +1,131 @@
+* {
+  font-family: arial;
+}
+
+body {
+  margin: 0 auto;
+}
+
+.center {
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  margin: 15px !important;
+}
+
+h4 {
+  margin: 10px 0px;
+}
+
+hr {
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.media {
+  display: inline-block;
+  width: 20%;
+  float: left;
+  height: 180px;
+  margin-right: 30px;
+  background: #f6f6f6;
+  margin-bottom: 50px;
+  position: relative;
+  padding: 10px;
+}
+
+.bookmarkIcon {
+  position: absolute;
+  left: 5px;
+  top: 5px;
+  width: 35px;
+  z-index: 9999;
+}
+
+.media-left,
+.media-body {
+  text-align: center;
+}
+
+a {
+  color: red;
+  text-deciration: none;
+}
+
+.media-object {
+  width: auto;
+  max-height: 110px;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+.headerBanner {
+  width: 100%;
+}
+
+.characterName {
+  width: 100%;
+  border: 1px solid black;
+  background: white;
+  height: 35px;
+  color: red;
+  padding-left: 0px;
+}
+
+.characterName::-webkit-input-placeholder {
+    color: red;
+    font-weight: bold;
+}
+
+.characterName::-moz-placeholder {
+    color: red;
+    font-weight: bold;
+}
+
+.characterName:-ms-input-placeholder {
+    color: red;
+    font-weight: bold;
+}
+
+.characterName:-o-input-placeholder {
+    color: red;
+    font-weight: bold;
+}
+
+.no-results {
+  color: gray;
+  font-style: italic;
+}
+
+.Search {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* Tablet ----------- */
+@media only screen and (max-width : 1024px) {
+  .wrapper {
+    width: 96%;
+    margin: 10px;
+  }
+
+  .media {
+    width: 42%;
+  }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (max-width : 630px) {
+  .media {
+    width: 99%;
+    padding: 0px;
+    margin: 10px 0px;
+  }
+}
